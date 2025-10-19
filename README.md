@@ -138,7 +138,7 @@ Score(candidate) = cosine_similarity(center, w2v[candidate])
 
 ---
 
-## 🧮 Technical Highlights for Admissions
+## 🧮 Technical Highlights
 	•	Domain-specific preprocessing for Korean financial language
 	•	Multi-metric evaluation (coherence, perplexity, Jaccard)
 	•	Automated semantic topic labeling using Word2Vec
