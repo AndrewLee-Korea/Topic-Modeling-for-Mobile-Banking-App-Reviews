@@ -137,10 +137,9 @@ Score(candidate) = cosine_similarity(center, w2v[candidate])
 
 ⸻
 
-👨‍💻 Author
-
-Yongjun Lee
-Manager, Digital Strategy Department – Korea Securities Finance Corporation
-🎓 B.S. in Computer Science & Engineering, Yonsei University (2013)
-📧 andrewyj.yi@gmail.com
-🌐 github.com/AndrewLee-Korea
+### 👨‍💻 Author
+	•	Yongjun Lee
+	•	Manager, Digital Strategy Department – Korea Securities Finance Corporation
+	•	🎓 B.S. in Computer Science & Engineering, Yonsei University (2013)
+	•	📧 andrewyj.yi@gmail.com
+	•	🌐 github.com/AndrewLee-Korea
