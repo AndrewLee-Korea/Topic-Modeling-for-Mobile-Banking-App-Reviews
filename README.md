@@ -38,22 +38,19 @@ For privacy and confidentiality reasons:
 ---
 
 ## ⚙️ Architecture Overview
-Raw App Reviews
-↓
-Text Cleaning (HTML, URLs, Symbols)
-↓
-Domain Term Normalization (공동인증서, 금융인증서, 계좌인증 등)
-↓
-Morphological Analysis (Komoran + Custom Dictionary)
-↓
-Stopword Filtering & Tokenization
-↓
-LDA Topic Modeling (BoW & TF-IDF, pyLDAvis Visualization)
-↓
-Model Evaluation (Coherence, Perplexity, Diversity)
-↓
-Word2Vec-based Topic Labeling
-
+```mermaid
+graph TD
+    A[Raw App Reviews] --> B[Text Cleaning]
+    B --> C[Domain Term Normalization]
+    C --> D[Morphological AnalysisKomoran + Custom Dictionary]
+    D --> E[Stopword Filtering & Tokenization]
+    E --> F[LDA Topic ModelingBoW & TF-IDF]
+    F --> G[Model EvaluationCoherence, Perplexity, Diversity]
+    G --> H[Word2Vec-based Topic Labeling]
+    
+    style A fill:#e1f5ff
+    style H fill:#d4edda
+```
 ---
 
 ## 🧠 Methodology Highlights
