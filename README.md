@@ -110,6 +110,15 @@ Score(candidate) = cosine_similarity(center, w2v[candidate])
 
 > **K=3** provided optimal interpretability, coherence, and minimal topic overlap.
 
+### Evaluation Visualizations
+
+| Metric | Interpretation |
+|--------|----------------|
+| ![Coherence (c_v)](results/visualizations/lda_c_v_vs_k.png) | **Coherence (c_v) vs K** — Higher is better (semantic consistency) |
+| ![U_mass](results/visualizations/lda_u_mass_vs_k.png) | **Coherence (u_mass) vs K** — Lower is better (corpus-based coherence) |
+| ![Log Perplexity](results/visualizations/lda_logppl_vs_k.png) | **Log Perplexity vs K** — Higher (less negative) indicates better generalization |
+| ![Avg Jaccard](results/visualizations/lda_avg_jaccard_vs_k.png) | **Average Jaccard Similarity** — Lower indicates less topic redundancy |
+
 ---
 
 ## 🖥️ Example Outputs
