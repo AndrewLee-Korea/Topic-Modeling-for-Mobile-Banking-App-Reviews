@@ -31,9 +31,9 @@ For privacy and confidentiality reasons:
 |------------|-------------|
 | **Language** | Korean (morphologically rich, domain-specific) |
 | **Model** | Latent Dirichlet Allocation (BoW + TF-IDF) |
-| **Labeling** | Word2Vec centroid-based automatic topic labeling |
-| **Evaluation** | Coherence (c_v, u_mass, npmi, uci), Log Perplexity, Jaccard Similarity |
 | **Visualization** | pyLDAvis interactive topic visualization |
+| **Evaluation** | Coherence (c_v, u_mass, npmi, uci), Log Perplexity, Jaccard Similarity |
+| **Labeling** | Word2Vec centroid-based automatic topic labeling |
 
 ---
 
