@@ -64,8 +64,8 @@ graph TD
 ### 2. Dual Topic Modeling
 - **BoW-based LDA**: captures general thematic structure  
 - **TF-IDF-based LDA**: emphasizes rare but informative words  
-- Configurable hyperparameters: topic count, passes, min/max term frequency  
-
+- Configurable hyperparameters: topic count, passes, min/max term frequency
+- 
 ### 3. Evaluation Framework
 | Metric | Goal | Interpretation |
 |--------|------|----------------|
@@ -121,12 +121,8 @@ Score(candidate) = cosine_similarity(center, w2v[candidate])
 ## 🖥️ Example Outputs
 
 **Visualizations**
-- `lda_c_v_vs_k.png` — Coherence vs. topic count  
-- `lda_u_mass_vs_k.png` — U_mass trends  
-- `lda_logppl_vs_k.png` — Log Perplexity vs K  
-- `lda_avg_jaccard_vs_k.png` — Topic redundancy  
-- `bow_lda_topic_visualization.html` — Interactive BOW model  
-- `tfidf_lda_topic_visualization.html` — Interactive TF-IDF model  
+- 🔗 **[View Interactive Topic Visualization (BOW)](Result_Colab/bow_lda_topic_visualization.html)** 
+- 🔗 **[View Interactive Topic Visualization (TF-IDF)](Result_Colab/tfidf_lda_topic_visualization.html)**
 
 **Data Exports**
 - `lda_k3_dominant_topics.csv` — Document-topic assignments  
