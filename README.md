@@ -141,7 +141,13 @@ Score(candidate) = cosine_similarity(center, w2v[candidate])
 	•	Automated semantic topic labeling using Word2Vec
 	•	Interpretable, reproducible, and extensible pipeline
 
-⸻
+## ⭐ Scalability & Future Directions 
+- Multi-channel data (10,000+ monthly inquiries)
+- Advanced NLP techniques (BERT, dynamic modeling)
+- Real-time monitoring pipeline
+
+---
+
 
 ### 👨‍💻 Author
 	•	Yongjun Lee
