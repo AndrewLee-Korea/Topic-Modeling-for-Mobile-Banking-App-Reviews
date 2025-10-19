@@ -48,13 +48,11 @@ Morphological Analysis (Komoran + Custom Dictionary)
 ↓
 Stopword Filtering & Tokenization
 ↓
-LDA Topic Modeling (BoW & TF-IDF)
+LDA Topic Modeling (BoW & TF-IDF, pyLDAvis Visualization)
 ↓
 Model Evaluation (Coherence, Perplexity, Diversity)
 ↓
 Word2Vec-based Topic Labeling
-↓
-pyLDAvis Visualization
 
 ---
 
