@@ -21,7 +21,7 @@ This repository presents a **simplified demonstration version** of the topic mod
 For privacy and confidentiality reasons:
 - Actual customer data and internal infrastructure are **not included**.
 - The demo uses **publicly available app store reviews (~300 samples)**.
-- The production-scale version processes 10,000+ monthly inquiries and includes enterprise-grade security and monitoring.
+- The production-scale version processes several thousand monthly customer interactions and integrates data from multiple touchpoints—not only app reviews but also contact-center channels—while operating with enterprise-grade security and monitoring.
 
 ---
 
